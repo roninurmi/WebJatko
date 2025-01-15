@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yksisivuinen Verkkosivu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tervetuloa Verkkosivulleni</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home" onclick="showAlert('Koti')">Koti</a></li>
+            <li><a href="#about" onclick="showAlert('Tietoa')">Tietoa</a></li>
+            <li><a href="#contact" onclick="showAlert('Yhteystiedot')">Yhteystiedot</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Koti</h2>
+            <p>Tämä on kotisivu.</p>
+        </section>
+        <section id="about">
+            <h2>Tietoa</h2>
+            <p>Tämä on tietoa-sivu.</p>
+        </section>
+        <section id="contact">
+            <h2>Yhteystiedot</h2>
+            <p>Tämä on yhteystiedot-sivu.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Verkkosivuni</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
